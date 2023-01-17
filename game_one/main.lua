@@ -11,4 +11,6 @@ function love.updare(dt)
 end
 
 function love.draw()
+    love.graphics.print("Hello")
+
 end
