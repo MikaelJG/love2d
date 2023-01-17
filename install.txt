@@ -1,0 +1,9 @@
+sudo apt-add-repository ppa:bartbes/love-stable
+
+sudo apt-get update
+
+sudo apt-get install love
+
+# open with 
+
+$ love
