@@ -1,0 +1,3 @@
+local num = 30
+
+local str = tostring(num)

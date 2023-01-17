@@ -1,0 +1,9 @@
+
+not false
+-- returns true
+
+not (false or true)
+-- returns false
+
+not (true and true)
+-- returns false

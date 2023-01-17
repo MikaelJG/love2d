@@ -1,0 +1,5 @@
+local x = "hello world"
+
+print(#x) 
+
+-- find the length.
