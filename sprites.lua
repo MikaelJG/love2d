@@ -11,6 +11,12 @@ function love.load()
     -- fancy way to set var
     sprite_width, sprite_height = 5352, 570
 
+    -- sprites are divided in quadrents, divide sprites
+    quad_width = 669
+    quad_height = sprite_height
+
+    love.graphics.newQuad(0, 0, quad_width, quad_height, sprite_width, sprite_height)
+
     
 end
 
