@@ -13,15 +13,12 @@ function love.load()
 function love.update(dt)
 
     if love.keyboard.isDown("down") then
-        -- pacman.x = pacman.x - 1
-        pacman.angle1 = pacman.angle1 - 1
-        pacman.angle2 = pacman.angle2 - 1
-
-        -- slow down its update
         pacman.angle1 = pacman.angle1 + math.pi * dt
         pacman.angle2 = pacman.angle2 + math.pi * dt
     elseif love.keyboard.isDown("up") then
-    --
+        pacman.angle1 = pacman.angle1 - math.pi * dt
+        pacman.angle2 = pacman.angle2 - math.pi * dt
+    -- 
     end
 end
 
