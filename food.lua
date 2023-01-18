@@ -8,8 +8,10 @@ function love.load()
     pacman.y = 250
     pacman.eat = true
 
-    _G.food_x = 600
-    _G.food_eaten = false 
+    _G.food = {
+        x = 600
+        eaten = false
+    }
 end
 
 function love.update(dt)
