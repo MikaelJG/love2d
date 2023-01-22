@@ -1,0 +1,13 @@
+Game engines
+Unity
+Unreal
+Gamemaker
+
+* game engines has a complete editor
+
+Game frameworks
+Love2D
+Monogame
+
+* game frameworks don't have an editor
+
