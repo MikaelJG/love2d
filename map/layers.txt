@@ -1,0 +1,18 @@
+All these functions in loadMap, 
+Are object layers in the 2d level editor tiled, or ogmo or ldtk
+
+    if gameMap.layers["Platforms"] then
+    end
+
+    if gameMap.layers["Spikes"] then
+    end
+
+    if gameMap.layers["Chekpoints"] then
+    if gameMap.layers["Doors"] then
+    if gameMap.layers["Signs"] then
+    if gameMap.layers["Enemy"] then
+    if gameMap.layers["Boxes"] then
+
+-- IN PROJECT
+
+-- src > levels > loadMap.lua
