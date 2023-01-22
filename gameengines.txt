@@ -9,5 +9,8 @@ Game frameworks
 Love2D
 Monogame
 
+very code-focused design
+
+
 * game frameworks don't have an editor
 
