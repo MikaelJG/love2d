@@ -22,3 +22,19 @@ function loadMap(mapName, destX, destY)
                 setFinish(obj.x, obj.y)
             -- ..
 
+    if gameMap.layers["Doors"] then
+        for i, obj in pairs(gameMap.layers["Doors"].objects) do
+            -- ..
+
+    if gameMap.layers["Signs"] then
+        for i, obj in pairs(gameMap.layers["Signs"].objects) do
+            -- ..
+    if gameMap.layers["Enemy"] then
+        for i, obj in pairs(gameMap.layers["Enemy"].objects) do
+            -- ..
+    if gameMap.layers["Boxes"] then
+        for i, obj in pairs(gameMap.layers["Boxes"].objects) do
+            -- ..
+-- IN PROJECT
+
+-- src > levels > loadMap.lua
