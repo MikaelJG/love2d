@@ -42,3 +42,26 @@ Enroll on wagon games program.
 On campus.
 
 ---------------------------
+
+Why?
+    - because montreal is the world capital of video games
+    - because its better for their portfolios
+    - it increases their chances of being seen
+    - its has huge benefits for the amount of effort (lua is easier than ruby!)
+
+    --- see comparaison
+
+
+
+
+
+What?
+    - take student's portfolio a step further, by working on a new project, in a new language (no learning curve!)
+    - at the end of the week, the batch uploads their game on the wagon game website page. 
+    - everybody can play the game of other batches
+    - everybody gets a real coding contribution in a scripting languages
+    - the batch can construct a real prototype and pitch it to wagon partners!! Including ubisoft. and indie game developers.
+    - coding is about more than the web.
+
+
+

@@ -1,0 +1,19 @@
+    What can lua do that ruby cannot?
+
+Fit in a smaller region of memory, use less memory, and do more work per unit of time. In other words, it's smaller and faster, which makes it much more desirable for gaming and embedded use.
+
+    Why should I code in lua over ruby?
+
+If the app you're using is scripted in Lua and not Ruby.
+
+    What draws people to lua?
+
+It's tiny, fast, easy to read, and conceptually simple while remaining very powerful.
+
+Ruby is a bloated monstrosity in comparison, both in size and speed and in terms of conceptual burden on the programmer. For instance, Ruby has at least 4 different function types, with inconsistent syntax, different available methods (they are objects), sometimes subtly different semantics.
+
+Lua has exactly one function type, it's very straightforward and generalized, accepting and returning an arbitrary number of arguments. Lua tends to be like this across the board, making the most of a handful of carefully chosen and designed concepts.
+
+    How is lua used in the real world?
+
+Primarily for scripting host applications (Photoshop Lightroom, VCL, Wireshark, etc.), especially in games (everything from World of Wacraft to Crysis to Angry Birds).
