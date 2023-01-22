@@ -1,0 +1,44 @@
+what the wagon is (its strengths)
+    - programming bootcamp to change-career
+    - for hard-working, intensive
+    - Mostly not fun-game-related
+    - Packed with content
+    - Introduction to programming (not industry needs)
+    - Web focused!
+    - Great community
+
+what the wagon is not (its weaknesses)
+    - Packed for games, or gamified
+    - Focused on industry needs (ruby is intro)
+    - Game focused (it is web focused)
+what the wagon teaches
+    - front
+    - back
+what the wagon doesn't teach
+    - scripting languages
+    - Industry roadmap
+    - Tech depth
+    - static programming (java, csharp)
+
+---------------------------
+
+How wagon games would work on weaknesses, at low costs
+    - real life experience
+
+How wagon games could get attention to the wagon (good publicity)
+    - some exercises are already games (see sinatra)
+
+Enroll to a program, after the bootcamp
+    - one week of wagon games...
+
+Taught in english and french
+Very accessible learning curve (ruby is lua)
+OOP
+
+
+No expenses for the Wagon, but something to advertise
+
+Enroll on wagon games program.
+On campus.
+
+---------------------------

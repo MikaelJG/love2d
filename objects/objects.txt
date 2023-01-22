@@ -1,0 +1,16 @@
+-- looks like a database
+-- like a table
+
+object
+-- needs unique id
+id: int 
+name: string
+type: ?
+visible: boolean
+x: 592.00 -- int
+y: 144.00 -- int
+width: 16.00 -- int
+height: 16.00 -- int
+rotation: 0 -- int
+
+
