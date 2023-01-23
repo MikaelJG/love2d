@@ -35,12 +35,22 @@ function love.mousepressed( x, y, button, istouch, presses )
 
     -- 1 is the primary button, left mouse click
     if button == 1 then
-        score = score + 1 
+        -- it shouldn't be global, thus local
+        local mouseToTarget = distanceBetween(x, y, target.x, target.y)
+        if mouseToTarger < target.radius then
+            score = score + 1
+        end
     end
     
     -- 2 is the primary button, left mouse click
     if button == 2 then
         score = score + 2
     end
-    
+end
+
+-- understand how far the mouse cursor is
+-- from the center of the circle
+function distanceBetween(x1, y1, x2, y2)
+    -- ^2 power of two. 
+    return math.sqrt( (x2 - x1)^2 + (y2 - y1)^2 )
 end
