@@ -1,0 +1,20 @@
+player = {}
+player.x = 0
+player.y = 0
+
+function love.update(dt)
+    -- the character move right of the screen
+    -- x axe increases --------------------->
+    player.x = player.x + 1
+
+    -- the character move up of the screen
+    -- y ace increases downard!
+    player.y = player.y - 1
+
+    -- the character move left
+    player.x = player.x - 1
+
+    -- the character move down
+    -- y ace increases upward!
+    player.y = player.y  
+end
