@@ -37,14 +37,17 @@ function love.mousepressed( x, y, button, istouch, presses )
     if button == 1 then
         -- it shouldn't be global, thus local
         local mouseToTarget = distanceBetween(x, y, target.x, target.y)
-        if mouseToTarger < target.radius then
+        if mouseToTarget < target.radius then
             score = score + 1
         end
     end
     
     -- 2 is the primary button, left mouse click
     if button == 2 then
-        score = score + 2
+        local mouseToTarget = distanceBetween(x, y, target.x, target.y)
+        if mouseToTarget < target.radius then
+            score = score + 2 
+        end
     end
 end
 
