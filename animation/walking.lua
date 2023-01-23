@@ -25,4 +25,3 @@ player.animations.walkDown:draw(
     sprites.linkWalkSheet, player.x, player.y
 
 )
-
