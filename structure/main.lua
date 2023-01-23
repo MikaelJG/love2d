@@ -25,6 +25,10 @@ function love.draw()
     -- 0 = none of that color
     -- 1 = as much as possible
 
+    -- the order of graphics is important. one is on top of other
+
+    -- best color stategy, converstion to 0-1
+    love.graphics.setColor(204/255, 102/255, 255/255)
 
 
 end
