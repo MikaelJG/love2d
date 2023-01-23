@@ -1,0 +1,14 @@
+great animation library for love2d
+
+we can use just one spritesheet, 
+you can specify the part of the spritesheet you want to use with anim8
+
+anim8.grid
+
+tell anim8 the size of one animation image (144px, 96px)
+then specify the size of the whole sheet.
+Anim8 will divide all the image automatically.
+
+the 144px, 96xp mesure if AFTER THE RESCALING OF AN 16PX 16PX PIXEL ART IMAGE 
+
+
