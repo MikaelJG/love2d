@@ -1,0 +1,9 @@
+-- create the world first, 
+-- then add object physics in this world
+-- using physics library for love, windfield
+
+world = windfield.newWorld()
+
+player.collider = world:newCircleCollider(0,0, 40)
+
+
