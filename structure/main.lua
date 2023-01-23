@@ -12,6 +12,7 @@ end
 function love.draw()
 
     love.graphics.rectangle("fill", 200, 400, 200, 100)
+    love.graphics.setColor(0.2, 0.7, 0.1)
     love.graphics.circle("fill", 0, 0, 200, 100)
     
     -- mode of rectangle (filled or outline)
