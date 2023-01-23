@@ -18,3 +18,18 @@ function love.update(dt)
     -- y ace increases upward!
     player.y = player.y  
 end
+
+--something like
+
+if love.keyboard.isDown("right") then
+    player.x = player.x + 4
+end
+if love.keyboard.isDown("left") then
+    player.x = player.x - 4
+end
+if love.keyboard.isDown("up") then
+    player.y = player.y - 4
+end
+if love.keyboard.isDown("left") then
+    player.y = player.y + 4
+end
