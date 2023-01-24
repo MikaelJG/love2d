@@ -4,7 +4,7 @@ local name = arg[1]
 local second_arg = arg[2]
 
 local folderCreate = "mkdir components objects states"
-local fileCreate = "touch conf.lua main.lua globals.lua ./components/Button.lua ./components/Test.lua ./objects/Player.lua ./states/Game.lua ./objects/Menu.lua"
+local fileCreate = "touch conf.lua main.lua globals.lua ./components/Button.lua ./components/Text.lua ./objects/Player.lua ./states/Game.lua ./objects/Menu.lua"
 
 os.execute(folderCreate)
 os.execute(fileCreate)
