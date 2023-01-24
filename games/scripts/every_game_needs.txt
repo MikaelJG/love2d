@@ -1,0 +1,7 @@
+(a game logo opening)
+a menu screen (background, title)
+a menu screen music
+an ending screen(game over screen)
+a menu screen music
+
+dialog boxes
