@@ -1,13 +1,15 @@
 local love = require "love"
-
 local Text = require "../components/Text"
-local Asteroids = require "../objects/Asteroids"
+
+-- require Ennemi object or Player Object
+-- local Asteroids = require "../objects/Asteroids"
 
 function Game()
     return {
         level = 1,
         state = {
-            menu = true, -- set to menu state by default
+            -- start with the menu by default
+            menu = true,
             paused = false,
             running = false,
             ended = false

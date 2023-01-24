@@ -1,7 +1,7 @@
+-- use variables set in globals
 require "globals"
 
 local love = require "love"
-
 local Player = require "objects/Player" -- importing player object
 local Game = require "states/Game" -- importing game object
 local Menu = require "states/Menu" -- importing menu object 
@@ -14,7 +14,7 @@ function love.load()
     
     player = Player()
     game = Game()
-    menu = Menu(game, player) -- we now create a menu object
+    menu = Menu(game, player) -- Create a menu object
 end
 
 -- KEYBINDINGS [ START ]--
@@ -77,9 +77,10 @@ function love.draw()
         -- draw player in center of screen
         -- player:draw(game.state.paused)
 
-        for _, asteroid in pairs(asteroids) do
-            asteroid:draw(game.state.paused)
-        end
+        -- draw ennemies or player
+        -- for _, asteroid in pairs(asteroids) do
+        --     asteroid:draw(game.state.paused)
+        -- end
 
         game:draw(game.state.paused)
     elseif game.state.menu then -- draw menu if in menu state
