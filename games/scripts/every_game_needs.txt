@@ -6,5 +6,10 @@ a menu screen music
 
 can be paused
 have a paused menu
+can be quitted in paused menu
+
+can be saved
+can be saves in paused menu
+can be loaded from menu screen
 
 dialog boxes
