@@ -4,4 +4,7 @@ a menu screen music
 an ending screen(game over screen)
 a menu screen music
 
+can be paused
+have a paused menu
+
 dialog boxes
