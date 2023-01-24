@@ -2,9 +2,9 @@ require "globals"
 
 local love = require "love"
 
-local Player = require "objects/Player"
-local Game = require "states/Game"
-local Menu = require "states/Menu" -- we now import menu
+local Player = require "objects/Player" -- importing player object
+local Game = require "states/Game" -- importing game object
+local Menu = require "states/Menu" -- importing menu object 
 
 math.randomseed(os.time())
 
@@ -17,15 +17,17 @@ function love.load()
     menu = Menu(game, player) -- we now create a menu object
 end
 
--- KEYBINDINGS --
+-- KEYBINDINGS [ START ]--
 function love.keypressed(key)
     if game.state.running then
         if key == "w" or key == "up" then -- for number pad keys (then keys keyboards)  or key == "kp8" then
-            player.thrusting = true
+            -- player action on up key
+            -- player.thrusting = true
         end
 
         if key == "space" or key == "down" then -- for numero pad keys (ten keys keyboards) or key == "kp5" then
-            player:shootLazer()
+            -- player action on space key
+            -- player:shootLazer()
         end
 
         if key == "escape" then
@@ -40,20 +42,22 @@ end
 
 function love.keyreleased(key)
     if key == "w" or key == "up" then -- or key == "kp8"
-        player.thrusting = false
+        -- player no action when key released
+        -- player.thrusting = false
     end
 end
 
 function love.mousepressed(x, y, button, istouch, presses)
     if button == 1 then
         if game.state.running then
-            player:shootLazer()
+            -- player action when game is running
+            -- player:shootLazer()
         else
             clickedMouse = true -- set if mouse is clicked
         end
     end
 end
--- KEYBINDINGS --
+-- KEYBINDINGS [ END ] --
 
 function love.update(dt)
     mouse_x, mouse_y = love.mouse.getPosition()
@@ -68,8 +72,10 @@ end
 
 function love.draw()
     if game.state.running or game.state.paused then
-        player:drawLives(game.state.paused) -- draw player lives to screen
-        player:draw(game.state.paused)
+        -- draw player lives
+        -- player:drawLives(game.state.paused)
+        -- draw player in center of screen
+        -- player:draw(game.state.paused)
 
         for _, asteroid in pairs(asteroids) do
             asteroid:draw(game.state.paused)
