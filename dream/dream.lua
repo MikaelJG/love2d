@@ -13,7 +13,7 @@
 
 local p = io.popen('find ./sh_writers -type f')
 for file in p:lines() do                         --Loop through all files
-    print(file)       
+    print("inside for loop with file" ..file.. " next to me")       
 end
 
 -- function dirLookup(dir)
