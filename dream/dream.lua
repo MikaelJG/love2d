@@ -1,3 +1,7 @@
+-- look at luaFilesystem
+
+-- local lfs = require"lfs"
+
 -- get arguments
 -- a name should be given.
 local name = arg[1]
