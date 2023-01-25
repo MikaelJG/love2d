@@ -1,4 +1,4 @@
-get arguments
+-- get arguments
 -- a name should be given.
 local name = arg[1]
 local second_arg = arg[2]
@@ -11,6 +11,7 @@ function createFiles ()
     -- os.execute(fileCreate)
 end
 function writeFiles ()
+    print("hello from writefiles")
 -- find .sh files, if we have to
 -- local p = io.popen('find ./sh_writers -type f')
 -- for file in p:lines() do                         --Loop through all files
@@ -18,3 +19,5 @@ function writeFiles ()
 --     os.execute(runSh)
 end
 
+createFiles()
+writeFiles()
