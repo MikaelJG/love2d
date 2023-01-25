@@ -11,9 +11,11 @@
 
 -- find .sh files, if we have to
 
-local p = io.popen('find ./sh_writers -type f')
+-- local p = io.popen('find ./sh_writers -type f')
+local p = io.popen('find ./tmp -type f')
 for file in p:lines() do                         --Loop through all files
-    print("inside for loop with file" ..file.. " next to me")       
+    runSh = file       
+    os.execute(runSh)
 end
 
 -- function dirLookup(dir)
