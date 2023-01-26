@@ -8,9 +8,13 @@ local name = arg[1]
 local second_arg = arg[2]
 
 function createFiles ()
-     current_dir=io.popen"cd":read'*l'
-     print(current_dir)
+     -- current_dir= -- find current dir with lfs
+     -- print(current_dir)
+
+     -- in current directory mkdir this 
      --local folderCreate = "mkdir components objects states"
+
+     -- in current dir touch these
      local fileCreate = string.format("touch conf.lua main.lua globals.lua %s/components/Button.lua %s/components/Text.lua %s/objects/Player.lua %s/states/Game.lua %s/objects/Menu.lua", current_dir, current_dir, current_dir, current_dir, current_dir)
      print(fileCreate)
      --os.execute(folderCreate)
